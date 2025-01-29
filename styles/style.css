@@ -3,6 +3,11 @@ body{
     font-family: "Montserrat", serif;
 }
 
+section{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
 header{
     display: flex;
     align-items: center;
@@ -20,6 +25,8 @@ header h1{
 }
 
 .btn{
+    display: flex;
+    gap: 1px;
     padding: 10px;
 }
 
