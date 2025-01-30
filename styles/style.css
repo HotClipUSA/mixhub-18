@@ -108,8 +108,9 @@ button{
 .fixed-video-one {
     position: fixed;
     bottom: 10px;
+    right: 10px;
     left: 10px;
-    width: 40%; /* ভিডিওর প্রস্থ ঠিক করা */
+    width: 94%; /* ভিডিওর প্রস্থ ঠিক করা */
     height: 170px; /* ভিডিওর উচ্চতা ঠিক করা */
     background: black;
     z-index: 9999; /* সব কন্টেন্টের উপরে রাখার জন্য */
