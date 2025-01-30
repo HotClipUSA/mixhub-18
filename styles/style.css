@@ -74,3 +74,28 @@ button{
     cursor: pointer;
 }
 
+.fixed-video {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 40%; /* ভিডিওর প্রস্থ ঠিক করা */
+    height: 170px; /* ভিডিওর উচ্চতা ঠিক করা */
+    background: black;
+    z-index: 9999; /* সব কন্টেন্টের উপরে রাখার জন্য */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.fixed-video-one {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 40%; /* ভিডিওর প্রস্থ ঠিক করা */
+    height: 170px; /* ভিডিওর উচ্চতা ঠিক করা */
+    background: black;
+    z-index: 9999; /* সব কন্টেন্টের উপরে রাখার জন্য */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
